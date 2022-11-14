@@ -1,0 +1,156 @@
+body {
+  font-family: "Baloo 2", cursive;
+}
+
+h5 {
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.container {
+  border: solid grey 1px;
+  margin-top: 100px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  background: radial-gradient(
+    343px at 46.3% 47.5%,
+    rgb(242, 242, 242) 0%,
+    rgb(241, 241, 241) 72.9%
+  );
+}
+
+.search-bar {
+  display: block;
+  margin-top: 30px;
+  margin: 20 auto;
+  padding-right: 50px;
+  font-size: 21px;
+  color: grey;
+}
+
+.search-submit {
+  margin-top: 30px;
+  background: white;
+}
+
+.current-button {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 6px 38px;
+  background: white;
+}
+
+.fa-location-dot {
+  display: inline;
+}
+
+.current-place-date-time {
+  margin-left: 50px;
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.current-condition {
+  text-align: center;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.current-condition-icon {
+  font-size: 70px;
+  color: orange;
+  margin-top: 15px;
+}
+
+.current-condition-text {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.current-temp-container {
+  margin-top: 45px;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.current-temp {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.celsius-button {
+  font-size: 12px;
+  margin-left: 15px;
+  text-align: center;
+  color: blue;
+  border: solid lightblue 1px;
+  border-radius: 10px;
+  box-shadow: 5px;
+  background: none;
+  transition: all 200ms ease;
+}
+
+.celsius-button:hov {
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 3px;
+}
+
+.temp-divider {
+  display: inline;
+  font-size: 12px;
+  color: blue;
+  background: none;
+}
+
+.fahr-button {
+  font-size: 12px;
+  text-align: center;
+  color: blue;
+  margin-left: 5px;
+  border: solid lightblue 1px;
+  border-radius: 10px;
+  box-shadow: 5px;
+  background: none;
+  transition: all 200ms ease;
+}
+
+.fahr-button:hov {
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 3px;
+}
+
+.five-day-forecast {
+  padding: 20px;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 23px;
+  background: white;
+}
+
+.forecast-sun {
+  margin: 10px 0;
+  color: orange;
+  font-size: 45px;
+}
+
+.fa-cloud-sun {
+  margin: 10px 0;
+  font-size: 45px;
+  color: #b0c4de;
+}
+
+.fa-cloud {
+  margin: 10px 0;
+  font-size: 45px;
+  color: grey;
+}
+
+.fa-cloud-showers-heavy {
+  margin: 10px 0;
+  font-size: 45px;
+  color: rgb(108, 166, 205);
+}
